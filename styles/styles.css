@@ -1,0 +1,130 @@
+
+:root{
+    --primary-text-color: #757575; 
+    --primary-title-color: #212121;
+    --accent-color: #2196F3;
+}
+
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+
+ul {
+  list-style: none;
+}
+
+
+.logo {
+  color: #000000;
+  text-decoration: none;
+
+  font-family: Raleway;
+}
+
+
+.logo-span {
+  color: var(--accent-color);
+}
+
+
+                                                          /* Header */
+.nav .link {
+  color: var(--primary-title-color);
+  text-decoration: none;
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+                                                           /* Hero */
+
+.hero {
+  background-color: #2f303a;
+  text-align: center;
+}
+
+.hero .title{
+    color: #FFFFFF;
+}
+
+.hero .button {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+                                                        /* Our skills */
+
+.skills-title {
+    color: var(--primary-title-color);
+}
+
+                                                            /* Work */
+
+.work-title{
+    color: var(--primary-title-color);
+    text-align: center;
+}
+
+                                                          /* Our team */
+
+.team-title{
+    color: var(--primary-title-color);
+}       
+.team-names{
+    color: var(--primary-title-color);
+}            
+
+
+/* Footer */
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer .logo{
+    color: #FFFFFF;
+}
+
+.footer-adress{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-adress:hover,
+.footer-adress:focus{
+    color: var(--accent-color);
+}
+
+                                                  /* PORTFOLIO */
+  .portfolio-button{
+    color: var(--primary-title-color);
+    background-color: #F5F4FA;
+    cursor: pointer;
+    border: none;
+
+  }
+
+  .portfolio-button:hover,
+  .portfolio-button:focus{
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+  }
+
+  .portfolio-title{
+    color: var(--primary-title-color);
+  }

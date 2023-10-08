@@ -30,10 +30,16 @@ ul {
 }
 
 
-                                                          /* Header */
+ /* Header */
+
+
 .nav .link {
   color: var(--primary-title-color);
   text-decoration: none;
+}
+
+.nav .link.current{
+  color: var(--accent-color);
 }
 
 .nav .link:hover,
@@ -51,7 +57,7 @@ ul {
   color: var(--accent-color);
 }
 
-                                                           /* Hero */
+/* Hero */
 
 .hero {
   background-color: #2f303a;
@@ -67,20 +73,19 @@ ul {
     color: #FFFFFF;
 }
 
-                                                        /* Our skills */
+ /* Our skills */
 
 .skills-title {
     color: var(--primary-title-color);
 }
 
-                                                            /* Work */
+ /* Work */
 
 .work-title{
     color: var(--primary-title-color);
     text-align: center;
 }
-
-                                                          /* Our team */
+ /* Our team */
 
 .team-title{
     color: var(--primary-title-color);
